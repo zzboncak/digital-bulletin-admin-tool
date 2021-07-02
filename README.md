@@ -46,13 +46,25 @@ To contribute to this project:
 
 - Make sure you have the [Prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) installed in VS Code.
 - Set your editor's settings to format on save
-  - Open VS Code's settings
-  - Search for `formatOnSave`
-  - Click enable
+  - Open the command palette (Command/Control + Shift + P)
+  - Search for `Preferences: Open Settings (JSON)`
+    - This is more of a manual/developer way to set your settings in VS Code
+  - Insert the following property into the JSON object
+    - There should only be one master object in this file, so make sure you insert these properties below any other existing properties.
+
+```json
+{
+  // ... any other settings that already exist ...
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+}
+```
+  - This will ensure that as multiple developers work on the codebase, the code format is consistent and readable.
 
 ### Contributing Devs
 
 - [Zack Zboncak](https://github.com/zzboncak)
 - [Nate Forgille](https://github.com/NathanForgille)
-
-mini edit
