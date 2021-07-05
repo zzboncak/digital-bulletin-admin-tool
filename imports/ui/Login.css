@@ -1,0 +1,53 @@
+.loginForm {
+  width: 493px;
+  height: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
+.formTitle {
+  color: black;
+  text-align: center;
+}
+
+.inputGroup {
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #e8e8e8;
+  border: none;
+}
+
+.inputContainer {
+  width: 396px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.loginInput {
+  width: 396px;
+  height: 66px;
+  border-radius: 15px;
+}
+
+.loginButtonContainer {
+  width: 128px;
+  height: 38px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loginButton {
+  width: 128px;
+  height: 38px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.loginButton:hover {
+  cursor: pointer;
+  background-color: #82b91e;
+}

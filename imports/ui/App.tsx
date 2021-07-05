@@ -1,6 +1,6 @@
 import React from "react";
 import { Hello } from "./Hello";
-import { Login } from "./Components/Login";
+import { Login } from "./Login";
 
 export const App = () => {
   return (
