@@ -1,0 +1,18 @@
+.loginForm {
+  position: fixed;
+  width: 493px;
+  height: 625px;
+  left: 474px;
+  top: 200px;
+
+  background: #e8e8e8;
+  border-radius: 25px;
+}
+
+.loginInput {
+  position: fixed;
+  left: 1.74%;
+  right: 0%;
+  top: 41.07%;
+  bottom: 0%;
+}
