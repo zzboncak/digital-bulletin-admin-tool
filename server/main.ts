@@ -1,22 +1,67 @@
 import { Meteor } from "meteor/meteor";
-import { LinksCollection } from "/imports/api/links";
+import { ServiceElementsCollection } from "/imports/api/serviceElement";
+import { ServiceElement } from "/types/types";
 
-function insertLink(title: string, url: string) {
-  LinksCollection.insert({ title, url, createdAt: new Date() });
+function insertServiceElement(serviceElement: Pick<ServiceElement, "title" | "isExpandable" | "content" | "type">) {
+  const { title, isExpandable, content, type} = serviceElement;
+  ServiceElementsCollection.insert({
+    title,
+    isExpandable,
+    content,
+    type,
+    createdAt: new Date()
+  });
 }
 
 Meteor.startup(() => {
-  // If the Links collection is empty, add some data.
-  if (LinksCollection.find().count() === 0) {
-    insertLink(
-      "Do the Tutorial",
-      "https://www.meteor.com/tutorials/react/creating-an-app"
-    );
+  // Start with a song.
+  if (ServiceElementsCollection.find().count() === 0) {
+    insertServiceElement({
+      title: "God is Able",
+      isExpandable: true,
+      type: "song",
+      content: `God is able He will never fail
+      He is Almighty God
+      Greater than all we seek greater than all we ask
+      He has done great things
+      
+      Lifted up He defeated the grave
+      Raised to life our God is able
+      In His Name we overcome
+      For the Lord our God is able
 
-    insertLink("Follow the Guide", "http://guide.meteor.com");
+      God is with us God is on our side
+      He will make a way
+      Far above all we know far above all we hope
+      He has done great things
 
-    insertLink("Read the Docs", "https://docs.meteor.com");
+      Lifted up He defeated the grave
+      Raised to life our God is able
+      In His Name we overcome
+      For the Lord our God is able
 
-    insertLink("Discussions", "https://forums.meteor.com");
+      God is with us He will go before
+      He will never leave us He will never leave us
+      God is for us He has open arms
+      He will never fail us He will never fail us
+
+      God is with us He will go before
+      He will never leave us He will never leave us
+      God is for us He has open arms
+      He will never fail us He will never fail us
+
+      Lifted up He defeated the grave
+      Raised to life our God is able
+      In His Name we overcome
+      For the Lord our God is able
+
+      Lifted up He defeated the grave
+      Raised to life our God is able
+      In His Name we overcome
+      For the Lord our God is able
+
+      For the Lord our God is able
+      For the Lord our God is able`
+    });
   }
 });
