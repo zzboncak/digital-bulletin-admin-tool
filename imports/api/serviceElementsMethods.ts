@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import SimpleSchema from 'simpl-schema';
-import { ServiceElementsCollection } from './serviceElement';
+import { ServiceElementsCollection } from '../db/serviceElement';
 import { ValidatedMethod } from 'meteor/mdg:validated-method';
 import { ServiceElement } from '/types/types';
 

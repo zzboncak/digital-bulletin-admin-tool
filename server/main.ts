@@ -1,5 +1,5 @@
 import { Meteor } from "meteor/meteor";
-import { ServiceElementsCollection } from "/imports/api/serviceElement";
+import { ServiceElementsCollection } from "../imports/db/serviceElement";
 import { ServiceElement } from "/types/types";
 
 function insertServiceElement(serviceElement: Pick<ServiceElement, "title" | "isExpandable" | "content" | "type">) {
