@@ -1,9 +1,15 @@
 import { Meteor } from "meteor/meteor";
 import { ServiceElementsCollection } from "../imports/db/serviceElement";
 import { ServiceElement } from "/types/types";
+import "/imports/api/serviceElementsPublication";
 
-function insertServiceElement(serviceElement: Pick<ServiceElement, "title" | "isExpandable" | "content" | "type">) {
-  const { title, isExpandable, content, type} = serviceElement;
+function insertServiceElement(
+  serviceElement: Pick<
+    ServiceElement,
+    "title" | "isExpandable" | "content" | "type"
+  >
+) {
+  const { title, isExpandable, content, type } = serviceElement;
   ServiceElementsCollection.insert({
     title,
     isExpandable,
