@@ -1,5 +1,7 @@
+import { Meteor } from "meteor/meteor";
 import React, { useState } from "react";
 import "./Login.css";
+// import faithLogo from "./images/";
 
 export const Login = () => {
   const [username, setUsername] = useState("");
@@ -7,6 +9,7 @@ export const Login = () => {
 
   const formSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    Meteor.loginWithPassword(username, password);
     console.log(username);
     console.log(password);
     console.log("you logged in");
@@ -14,6 +17,7 @@ export const Login = () => {
 
   return (
     <form className="loginForm" onSubmit={(e) => formSubmit(e)}>
+      <fieldset className="logoContainer">{/* <img src={faithLogo} /> */}</fieldset>
       <fieldset className="inputGroup">
         <h2 className="formTitle">Ready to plan a service?</h2>
         <div className="inputContainer">

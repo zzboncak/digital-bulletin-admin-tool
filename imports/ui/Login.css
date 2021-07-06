@@ -19,6 +19,10 @@
   border: none;
 }
 
+.logoContainer {
+  border: none;
+}
+
 .inputContainer {
   width: 396px;
   margin-left: auto;
