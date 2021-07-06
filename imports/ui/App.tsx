@@ -23,7 +23,7 @@ export const App = () => {
       {isLoading && <p>Loading...</p>}
       {/** This can be removed, this was just to see data coming through from the server */}
       {serviceElements.map((element, i) => (
-        <p>{element.title}</p>
+        <p key={i}>{element._id}</p>
       ))}
       <Hello />
     </div>
