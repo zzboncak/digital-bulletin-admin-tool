@@ -1,5 +1,5 @@
 import { Meteor } from "meteor/meteor";
-import { ServiceElementsCollection } from "../imports/db/serviceElement";
+import { ServiceElementsCollection } from "../imports/db/serviceElement/serviceElement";
 import { ServiceElement } from "/types/types";
 import "/imports/api/serviceElementsPublication";
 

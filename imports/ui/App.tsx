@@ -2,7 +2,7 @@ import { Meteor } from "meteor/meteor";
 import React from "react";
 import { Hello } from "./Hello";
 import { useTracker } from "meteor/react-meteor-data";
-import { ServiceElementsCollection } from "../db/serviceElement";
+import { ServiceElementsCollection } from "../db/serviceElement/serviceElement";
 
 export const App = () => {
   const { serviceElements, isLoading } = useTracker(() => {
