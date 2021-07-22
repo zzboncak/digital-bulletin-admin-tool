@@ -1,7 +1,6 @@
 import { Meteor } from "meteor/meteor";
 import React, { useState } from "react";
 import "./Login.css";
-// import faithLogo from "./images/";
 
 export const Login = () => {
   const [username, setUsername] = useState("");
@@ -14,9 +13,6 @@ export const Login = () => {
 
   return (
     <form className="loginForm" onSubmit={(e) => formSubmit(e)}>
-      <fieldset className="logoContainer">
-        {/* <img src={faithLogo} /> */}
-      </fieldset>
       <fieldset className="inputGroup">
         <h2 className="formTitle">Ready to plan a service?</h2>
         <div className="inputContainer">
@@ -35,7 +31,7 @@ export const Login = () => {
           <input
             name="password"
             className="loginInput"
-            type="text"
+            type="password"
             placeholder="Make Strong Like Bull"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
