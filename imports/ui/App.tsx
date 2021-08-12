@@ -1,13 +1,20 @@
+import { Meteor } from "meteor/meteor";
 import React from "react";
-import { Hello } from "./Hello";
 import { Login } from "./Login";
+import { useTracker } from "meteor/react-meteor-data";
 
 export const App = () => {
+  const user = useTracker(() => Meteor.user());
+
   return (
     <div>
-      <h1>Welcome to Meteor, Nate!</h1>
-      <Hello />
-      <Login />
+      {!!user && (
+        <>
+          <h1>Welcome to Meteor, Nate!</h1>
+          <button onClick={() => Meteor.logout()}>Log out</button>
+        </>
+      )}
+      {!user && <Login />}
     </div>
   );
 };
