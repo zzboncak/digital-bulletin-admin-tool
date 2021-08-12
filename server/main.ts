@@ -1,6 +1,14 @@
 import { Meteor } from "meteor/meteor";
-import "/imports/api/subsectionPublication";
+import { Accounts } from "meteor/accounts-base";
+
+const MASTER_USER = "Peter";
+const MASTER_USER_PASSWORD = "Keys2DaKindum";
 
 Meteor.startup(() => {
-  // Start with a song.
+  if (!Accounts.findUserByUsername(MASTER_USER ?? "")) {
+    Accounts.createUser({
+      username: MASTER_USER,
+      password: MASTER_USER_PASSWORD
+    });
+  }
 });
