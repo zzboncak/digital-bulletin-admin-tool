@@ -1,0 +1,215 @@
+{
+  "service": [
+    {
+      "title": "God Gathers Us To Worship",
+      "subsections": [
+        {
+          "title": "Gathering Song",
+          "subjects": [
+            {
+              "title": "House of the Lord",
+              "isExpandable": false
+            }
+          ]
+        },
+        {
+          "title": "Call to Worship & Invocation Prayer"
+        },
+        {
+          "title": "Songs of Worship",
+          "subtext": "*Congregation Standing",
+          "subjects": [
+            {
+              "title": "Battle Belongs",
+              "isExpandable": true,
+              "type": "song",
+              "content": "When all I see is the battle\n  You see my victory\n  When all I see is the mountain\n  You see a mountain moved\n  And as I walk through the shadow\n  Your love surrounds me\n  There's nothing to fear now\n  For I am safe with You\n  \n  So when I fight I'll fight on my knees\n  With my hands lifted high\n  Oh God the battle belongs to You\n  And every fear I lay at Your feet\n  I'll sing through the night\n  Oh God the battle belongs to You\n  \n  And if You are for me\n  Who can be against me (yeah)\n  For Jesus there's nothing\n  Impossible for You\n  When all I see are the ashes\n  You see the beauty (thank You God)\n  When all I see is a cross\n  God You see the empty tomb\n  \n  So when I fight I'll fight on my knees\n  With my hands lifted high\n  Oh God the battle belongs to You\n  And every fear I lay at Your feet\n  I'll sing through the night\n  Oh God the battle belongs to You\n  \n  Almighty Fortress You go before us\n  Nothing can stand against\n  The power of our God\n  You shine in the shadow\n  You win every battle\n  Nothing can stand against\n  The power of our God\n  \n  Almighty Fortress You go before us\n  Nothing can stand against\n  The power of our God\n  You shine in the shadow\n  You win every battle\n  Nothing can stand against\n  The power of our God\n  \n  Almighty Fortress You go before us\n  Nothing can stand against\n  The power of our God\n  You shine in the shadows\n  You win every battle\n  Nothing can stand against\n  The power of our God\n  \n  So when I fight I'll fight on my knees\n  With my hands lifted high\n  Oh God the battle belongs to You\n  And every fear I lay at Your feet\n  I'll sing through the night\n  Oh God the battle belongs to You\n  \n  Oh God the battle belongs to You"
+            },
+            {
+              "title": "The Lion and the Lamb",
+              "isExpandable": true,
+              "type": "song",
+              "content": "He's coming on the clouds\n  Kings and kingdoms will bow down\n  And every chain will break\n  As broken hearts declare His praise\n  For who can stop the Lord Almighty\n  \n  Our God is the Lion\n  The Lion of Judah\n  He's roaring with power\n  And fighting our battles\n  And every knee will bow before Him\n  Our God is the Lamb\n  The Lamb that was slain\n  For the sins of the world\n  His blood breaks the chains\n  And every knee will bow before the Lion\n  and the Lamb\n  Every knee will bow before Him\n\n  So open up the gates\n  Make way before the King of kings\n  The God who comes to save\n  Is here to set the captives free\n  For who can stop the Lord Almighty\n \n  Our God is the Lion\n  The Lion of Judah\n  He's roaring with power\n  And fighting our battles\n  And every knee will bow before Him\n  Our God is the Lamb\n  The Lamb that was slain\n  For the sins of the world\n  His blood breaks the chains\n  And every knee will bow before the Lion\n  and the Lamb\n  Every knee will bow before Him\n  \n  Who can stop the Lord Almighty \n  Who can stop the Lord Almighty \n  Who can stop the Lord Almighty\n  Who can stop the Lord\n\n  Our God is the Lion\n  The Lion of Judah\n  He's roaring with power\n  And fighting our battles\n  And every knee will bow before Him\n  Our God is the Lamb\n  The Lamb that was slain\n  For the sins of the world\n  His blood breaks the chains\n  And every knee will bow before the Lion\n  and the Lamb\n  Every knee will bow before Him"
+            },
+            {
+              "title": "No Longer Slaves",
+              "isExpandable": true,
+              "type": "song",
+              "content": "You unravel me with a melody\n  You surround me with a song\n  Of deliverance from my enemies\n  Till all my fears are gone\n  \n  I'm no longer a slave to fear\n  I am a child of God\n  I'm no longer a slave to fear\n  I am a child of God\n  \n  From my Mother's womb\n  You have chosen me\n  Love has called my name\n  I've been born again into Your family\n  Your blood flows through my veins\n  \n  I'm no longer a slave to fear\n  I am a child of God\n  I'm no longer a slave to fear\n  I am a child of God\n  \n  I am surrounded\n  By the arms of the Father\n  I am surrounded\n  By songs of deliverance\n  We’ve been liberated\n  From our bondage\n  We’re the sons and the daughters\n  Let us sing our freedom\n  \n  Oh...Oh... Oh...Oh...\n \n  You split the sea so I could walk right through it\n  My fears were drowned in perfect love\n  You rescued me so I could stand and sing\n  I am a child of God"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "God Speaks to Us Through His Word",
+      "subsections": [
+        {
+          "title": "Scripture Reading",
+          "subtext": "Camilo Hormazábal",
+          "subjects": [
+            {
+              "title": "Spirit of the Living God",
+              "isExpandable": true,
+              "type": "song",
+              "content": "Spirit of the Living God,\n            fall afresh on me\n            Spirit of the Living God,\n            fall afresh on me\n            Melt me, mold me, fill me, use me \n            Spirit of the Living God,\n            fall afresh on me"
+            },
+            {
+              "title": "Acts 15:1-21",
+              "isExpandable": true,
+              "type": "scripture",
+              "content": "The Council at Jerusalem\n        1 Certain people came down from Judea to Antioch and were teaching the believers: “Unless you are circumcised, according to the custom taught by Moses, you cannot be saved.” 2 This brought Paul and Barnabas into sharp dispute and debate with them. So Paul and Barnabas were appointed, along with some other believers, to go up to Jerusalem to see the apostles and elders about this question. 3 The church sent them on their way, and as they traveled through Phoenicia and Samaria, they told how the Gentiles had been converted. This news made all the believers very glad. 4 When they came to Jerusalem, they were welcomed by the church and the apostles and elders, to whom they reported everything God had done through them. \n        5 Then some of the believers who belonged to the party of the Pharisees stood up and said, “The Gentiles must be circumcised and required to keep the law of Moses.” \n        6 The apostles and elders met to consider this question. 7 After much discussion, Peter got up and addressed them: “Brothers, you know that some time ago God made a choice among you that the Gentiles might hear from my lips the message of the gospel and believe. 8 God, who knows the heart, showed that he accepted them by giving the Holy Spirit to them, just as he did to us. 9 He did not discriminate between us and them, for he purified their hearts by faith. 10 Now then, why do you try to test God by putting on the necks of Gentiles a yoke that neither we nor our ancestors have been able to bear? 11 No! We believe it is through the grace of our Lord Jesus that we are saved, just as they are.” \n        12 The whole assembly became silent as they listened to Barnabas and Paul telling about the signs and wonders God had done among the Gentiles through them. 13 When they finished, James spoke up. “Brothers,” he said, “listen to me. 14 Simon has described to us how God first intervened to choose a people for his name from the Gentiles. 15 The words of the prophets are in agreement with this, as it is written: \n        \n              16 “ ‘After this I will return \n                 and rebuild David’s fallen tent. \n                 Its ruins I will rebuild, \n                 and I will restore it, \n              17 that the rest of mankind may seek the Lord, \n                 even all the Gentiles who bear my name, \n                 says the Lord, who does these things’ — \n                 18      things known from long ago.  \n        \n        19 “It is my judgment, therefore, that we should not make it difficult for the Gentiles who are turning to God. 20 Instead we should write to them, telling them to abstain from food polluted by idols, from sexual immorality, from the meat of strangled animals and from blood. 21 For the law of Moses has been preached in every city from the earliest times and is read in the synagogues on every Sabbath.”"
+            }
+          ]
+        },
+        {
+          "title": "Ministry to Children",
+          "subtext": "Angela Broman",
+          "subjects": [
+            {
+              "title": "I Am So Glad That Our Father in Heaven",
+              "isExpandable": true,
+              "type": "song",
+              "content": "I am so glad that our Father in heaven \n        Tells of His love in the book\n        He has giv'n \n        Wonderful things in the Bible I see \n        This is the dearest\n        that Jesus loves me\n  \n        I am so glad that Jesus loves me \n        Jesus loves me\n        Jesus loves me\n        I am so glad that Jesus loves me \n        Jesus loves even me"
+            }
+          ]
+        },
+        {
+          "title": "Hymn of Preparation",
+          "subtext": "*Congregation Standing",
+          "subjects": [
+            {
+              "title": "God Creator of your People",
+              "isExpandable": true,
+              "type": "song",
+              "content": "God, Creator of your people, you have called us to be one;\n  grant us grace to walk together in the joy of Christ, your Son.\n  Challenged by your Word and Spirit, blest with gifts from heav'n above,\n  as one body we will serve you and bear witness to your love.\n  \n  May the grace of Christ, our Savior, and the Father's boundless love,\n  with the Holy Spirit's favor, rest upon us from above.\n  May we now remain in union with each other and the Lord,\n  and possess, in sweet communion, joys that earth cannot afford."
+            }
+          ]
+        },
+        {
+          "title": "Sermon",
+          "subtext": "Pastor Nate Hickox",
+          "subjects": [
+            {
+              "title": "The Church Meeting that Changed the World",
+              "isExpandable": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "We Respond to God",
+      "subsections": [
+        {
+          "title": "Prayers of the People & the Lord's Prayer",
+          "subjects": [
+            {
+              "title": "The Lord's Prayer",
+              "isExpandable": true,
+              "content": "Our Father, who art in heaven, hallowed by Thy name.\n      Thy Kingdom come, Thy will be done on Earth as it is in Heaven.\n      Give us this day our daily bread, and forgive us our sins as we forgive those who sin against us.\n      And lead us not into temptation, but deliver us from evil.\n      For thine is the Kingdom, and the power, and the glory forever.\n      Amen."
+            }
+          ]
+        },
+        {
+          "title": "Offering Dedication",
+          "subtext": "*Congregation Standing",
+          "subjects": [
+            {
+              "title": "Grant Us, Lord, the Grace of Giving",
+              "isExpandable": true,
+              "type": "song",
+              "content": {
+                "key": null,
+                "ref": null,
+                "props": {
+                  "children": [
+                    {
+                      "type": "a",
+                      "key": null,
+                      "ref": null,
+                      "props": {
+                        "href": "https://faithecc.breezechms.com/give/online",
+                        "target": "_blank",
+                        "rel": "noreferrer",
+                        "children": "Give Here"
+                      },
+                      "_owner": null,
+                      "_store": {}
+                    },
+                    {
+                      "type": "p",
+                      "key": null,
+                      "ref": null,
+                      "props": {
+                        "children": [
+                          "Grant us Lord the grace of giving ",
+                          {
+                            "type": "br",
+                            "key": null,
+                            "ref": null,
+                            "props": {},
+                            "_owner": null,
+                            "_store": {}
+                          },
+                          "With a spirit large and free ",
+                          {
+                            "type": "br",
+                            "key": null,
+                            "ref": null,
+                            "props": {},
+                            "_owner": null,
+                            "_store": {}
+                          },
+                          "That ourselves in all our living ",
+                          {
+                            "type": "br",
+                            "key": null,
+                            "ref": null,
+                            "props": {},
+                            "_owner": null,
+                            "_store": {}
+                          },
+                          "We may offer unto thee"
+                        ]
+                      },
+                      "_owner": null,
+                      "_store": {}
+                    }
+                  ]
+                },
+                "_owner": null,
+                "_store": {}
+              }
+            }
+          ]
+        },
+        {
+          "title": "Prayer of Dedication",
+          "subtext": "*Congregation Standing"
+        }
+      ]
+    },
+    {
+      "title": "God Sends Us Out",
+      "subsections": [
+        {
+          "title": "Hymn of Sending",
+          "subtext": "*Congregation Standing",
+          "subjects": [
+            {
+              "title": "Thank You, God, for Sisters, Brothers",
+              "isExpandable": true,
+              "type": "song",
+              "content": "Thank you, God, for sisters, brothers\n  Keeping faith with us and you\n  Joining heart to heart with others\n  As your call to us come true\n  With the cross our only standard\n  Let us sing with one great voice:\n  “Glory, glory, yours the Kingdom\n  Churches in your Church rejoice”\n\n  God be praised for congregations \n  By the love of Christ set free \n  Many tongues and many nations \n  Sing the greater unity\n  Sweet the psalm and sweet the carol \n  When our song is raised as one \n  “Glory, glory, yours the power\n  As in heav’n your will be done”\n  \n  May your name be honored ever \n  Heal our diff’rences of old \n  Bless your churches new endeavor \n  For your Kingdom make us bold \n  One our Christ and one our Gospel \n  Make us one we now implore \n  “Glory, glory, yours the glory \n  Through the ages evermore”"
+            }
+          ]
+        },
+        {
+          "title": "The Benediction, Greeting, Postlude",
+          "subtext": "*Congregation Standing"
+        }
+      ]
+    }
+  ]
+}
