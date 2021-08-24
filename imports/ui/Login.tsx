@@ -1,14 +1,18 @@
 import { Meteor } from "meteor/meteor";
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import "./Login.css";
 
 export const Login = () => {
+  const history = useHistory();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
   const formSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     Meteor.loginWithPassword(username, password);
+    // After logging in, push back to home
+    history.push("/");
   };
 
   return (
