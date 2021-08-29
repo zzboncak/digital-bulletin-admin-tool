@@ -3,12 +3,16 @@ import React from "react";
 import { Login } from "./Login";
 import { Switch, Route } from "react-router-dom";
 import { PrivateRoute } from "./PrivateRoute";
+import { Register } from "./Register";
 
 export const App = () => {
   return (
     <Switch>
       <Route path="/login">
         <Login />
+      </Route>
+      <Route path="/register">
+        <Register />
       </Route>
       <PrivateRoute exact path="/">
         <div>

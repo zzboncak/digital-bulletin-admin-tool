@@ -57,3 +57,7 @@
 .loginButton:hover {
   cursor: pointer;
 }
+
+.loginButton:disabled {
+  cursor: not-allowed;
+}
