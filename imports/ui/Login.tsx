@@ -1,7 +1,7 @@
 import { Meteor } from "meteor/meteor";
 import { useTracker } from "meteor/react-meteor-data";
 import React, { useEffect, useState } from "react";
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import "./Login.css";
 
 export const Login = () => {
@@ -50,11 +50,16 @@ export const Login = () => {
           />
         </div>
         <div className="loginButtonContainer">
-          <button className="loginButton" type="submit">
+          <button
+            className="loginButton"
+            type="submit"
+            disabled={!username.length || !password.length}
+          >
             Login
           </button>
         </div>
       </fieldset>
+      <Link to="/register">Need an acount?</Link>
     </form>
   );
 };
